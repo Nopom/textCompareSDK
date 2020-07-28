@@ -1,6 +1,10 @@
+
 from setuptools import setup, find_packages
+ 
 setup(
-    name = "cpssdk",
-    version = "0.1",
-    packages = find_packages(),
+	name = "demo",
+	version = "0.1",
+	url = 'https://github.com/snowroll/python-sdk.git',
+	long_description = open('README.md').read(),
+	packages = find_packages(),
 )
